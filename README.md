@@ -3,6 +3,8 @@
 A smart AI-powered web application that matches **resumes with job descriptions** using NLP techniques like **TF-IDF** and **vector similarity**.  
 Built with **FastAPI**, it extracts, processes, and scores resume content to help recruiters and job-seekers analyze compatibility instantly.
 
+---
+
 ## 🚀 Features
 ✅ Upload Resume & Job Description (PDF/Text)  
 ✅ Automatic Resume Parsing and Keyword Extraction  
@@ -11,15 +13,17 @@ Built with **FastAPI**, it extracts, processes, and scores resume content to hel
 ✅ Clean Web Interface (Jinja2 + HTML/CSS)  
 ✅ Supports multiple resume files (extendable)
 
+---
+
 ## Folder Structure
-ResumeMatcher-FA/
-│
-├── main.py # FastAPI backend
-├── requirements.txt # Project dependencies
-├── Uploads/ # Folder to store uploaded resumes
-├── templates/
-│ └── index.html # Frontend HTML (Jinja2)
-└── README.md
+- main.py # FastAPI backend
+- requirements.txt # Project dependencies
+- Uploads/ # Folder to store uploaded resumes
+- templates/
+    - index.html # Frontend HTML (Jinja2)
+- README.md
+
+---
 
 ## 🛠️ Tech Stack
 - **Python 3.x**
@@ -63,3 +67,4 @@ pip install -r requirements.txt
 # Step 4: Run the server
 uvicorn main:app --reload
 
+---
